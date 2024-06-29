@@ -1,0 +1,26 @@
+* {
+  font-family: sans-serif;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 15px;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #084e9a;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  max-width: max(min-content, 300px);
+}
